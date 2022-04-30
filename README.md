@@ -29,7 +29,9 @@
 - Если выходные числа большие идет перерасчет в экспоненциальную нотацию;
 ![alt text](Screenshots/mainViewExpNumbers.png)
 - Если число было введено а потом удалено будет уведомляющая подводка;
-![alt text](Screenshots/mainViewWithMistake.png)
 - Есть адаптив под большенство различных устройств.
-![alt text](Screenshots/mainViewPhoneVersion.png)
+<div align="center">
+  <img src="Screenshots/mainViewWithMistake.png" width="700"/>
+  <img src="Screenshots/mainViewPhoneVersion.png" width="235"/>
+</div>
 
