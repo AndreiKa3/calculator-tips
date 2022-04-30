@@ -2,6 +2,8 @@
 
 Простое исполнение калькулятора чаевых!
 
+Хостинг: `https://calculator-tips.herokuapp.com/`
+
 ![alt text](Screenshots/mainView.png)
 
 ## Решаемые задачи
