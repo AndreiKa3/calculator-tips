@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="styles/index.css" />
+    <title>Tip calculator</title>
+    <script defer src="scripts/index.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container__monitor monitor-left">
+        <div class="monitor-left__input-line">
+          <p>Сумма чека</p>
+          <input type="number" class="input-bill"/>
+        </div>
+        <div class="monitor-left__input-buttons">
+          <p>Процент чаевых от суммы чека %</p>
+          <div class="input-buttons__buttons">
+            <input type="button" class="button input-buttons__button" value="5%"/>
+            <input type="button" class="button input-buttons__button" value="10%"/>
+            <input type="button" class="button input-buttons__button" value="15%"/>
+            <input type="button" class="button input-buttons__button" value="25%"/>
+            <input type="button" class="button input-buttons__button" value="50%"/>
+            <input type="number" class="button input-buttons__button_custom" placeholder="Custom"/>
+          </div>
+        </div>
+        <div class="monitor-left__input-line">
+          <p>Количество людей</p>
+          <input type="number" class="input-count-of-people" />
+        </div>
+      </div>
+
+      <div class="container__monitor monitor-right">
+        <div class="monitor-right__tip-amount-total">
+          <div class="monitor-right__final-account tip-amount">
+            <div>
+              <p>Tip Amount</p>
+              <span>/ person</span>
+            </div>
+            <input type='number' class="input-count-tip-amount" placeholder='0,00' disabled />
+          </div>
+          <div class="monitor-right__final-account total">
+            <div>
+              <p>Total</p>
+              <span>/ person</span>
+            </div>
+            <input type='number' class="input-count-person" placeholder='0,00' disabled />
+          </div>
+        </div>
+        <input type="button" class="button-reset" value="RESET" />
+      </div>
+    </div>
+  </body>
+</html>
